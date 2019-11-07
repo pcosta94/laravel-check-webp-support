@@ -1,0 +1,35 @@
+{
+    "name": "pcosta94/laravel-check-webp-support",
+    "description": "Package to check browser's Webp images support",
+	"keywords": [
+		"webp",
+		"laravel",
+		"blade"
+	],
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "*.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Costa",
+            "email": "pcdungeon24@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+	"files": [
+      "src/helpers.php"
+    ],
+        "psr-4": {"Pcosta94\\LaravelCheckWebpSupport": "src/"}
+    },
+	"extra": {
+    "laravel": {
+      "providers": [
+        "Pcosta94\\LaravelCheckWebpSupport\\LaravelWebpServiceProvider"
+      ]
+    }
+  }
+}
