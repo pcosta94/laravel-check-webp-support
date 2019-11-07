@@ -23,7 +23,7 @@
 	"files": [
       "src/helpers.php"
     ],
-        "psr-4": {"Pcosta94\\LaravelCheckWebpSupport": "src/"}
+        "psr-4": {"Pcosta94\\LaravelCheckWebpSupport\\": "src/"}
     },
 	"extra": {
     "laravel": {
