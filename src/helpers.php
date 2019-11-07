@@ -1,6 +1,9 @@
 <?php
+
+use Illuminate\Support\Str;
+
 if (!function_exists('supportsWebp')) {
     function supportsWebp() {
-        return strpos($_SERVER['HTTP_ACCEPT'], 'image/webp') !== false;
+        return Str::contains($request->headers->get('user_agent'), ['Trident','Safari',]) !== false;
     }
 }
