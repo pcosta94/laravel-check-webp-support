@@ -2,7 +2,7 @@
 
 ![Packagist Version](https://img.shields.io/packagist/v/pcosta94/laravel-check-webp-support?style=flat-square)
 ![Packagist](https://img.shields.io/packagist/l/pcosta94/laravel-check-webp-support?style=flat-square)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/pcosta94/laravel-check-webp-support/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/pcosta94/laravel-check-webp-support/?branch=master)
+![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/pcosta94/laravel-check-webp-support?style=flat-square)
 ![Packagist](https://img.shields.io/packagist/dt/pcosta94/laravel-check-webp-support?style=flat-square)
 
 Package to check browser's Webp images support
