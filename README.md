@@ -1,5 +1,12 @@
 # laravel-check-webp-support
+
+![Packagist Version](https://img.shields.io/packagist/v/pcosta94/laravel-check-webp-support?style=flat-square)
+![Packagist](https://img.shields.io/packagist/l/pcosta94/laravel-check-webp-support?style=flat-square)
+![Packagist](https://img.shields.io/packagist/dt/pcosta94/laravel-check-webp-support?style=flat-square)
+
 Package to check browser's Webp images support
+
+
 
 This package includes an helper function to verify if the browser supports Webp images and a blade directive to use that verification in blade templates.
 
